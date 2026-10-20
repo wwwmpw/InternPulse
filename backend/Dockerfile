@@ -9,7 +9,6 @@ RUN npm install --production
 
 # Source code copy
 COPY . .
-COPY .env .env
 
 # uploads folders create (local disk storage)
 RUN mkdir -p uploads/attachments uploads/cvs
